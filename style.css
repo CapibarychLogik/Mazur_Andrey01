@@ -1,1 +1,37 @@
+header{
+      background-color: lightgreen;
+}
+h1{
+      text-align: center;
+      color: blue;
+      
+}
+nav{
+        text-align: center;
+}
+main h1{
+      color: blue;
+      text-align: center;
+}
 
+main{
+      background-color: aqua;
+}
+h3{
+      color: blue;
+      text-align: center;
+}
+p{
+   font-size: 20px;
+}
+footer{
+      background-color: #fa7921;
+}
+body{
+     background-color: #247ba0;
+}
+
+footer p{
+         font-size: 30px;
+         color: #70c1b3;
+}
