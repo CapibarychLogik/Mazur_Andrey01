@@ -1,37 +1,20 @@
-header{
-      background-color: lightgreen;
-}
-h1{
-      text-align: center;
-      color: blue;
-      
-}
-nav{
-        text-align: center;
-}
-main h1{
-      color: blue;
-      text-align: center;
-}
-
-main{
-      background-color: aqua;
-}
-h3{
-      color: blue;
-      text-align: center;
-}
-p{
-   font-size: 20px;
-}
-footer{
-      background-color: #fa7921;
-}
 body{
-     background-color: #247ba0;
+    font-family: URW Chancery L, cursive;
 }
 
-footer p{
-         font-size: 30px;
-         color: #70c1b3;
+h1{
+    color: navy;
+    text-align: center;
+    border-top: 5px dashed blue;
+    border-bottom: 5px dashed blue;
+}
+
+p{
+   color: lightseagreen;
+   border-left: 10px dotted blue;
+   border-right: 10px dotted blue;
+}
+
+nav{
+     text-align: center;
 }
