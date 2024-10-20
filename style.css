@@ -33,7 +33,7 @@ header h1{
         Navy);
         background-clip: text;
         -webkit-background-clip: text;
-        -webkit-text-stroke: .3rem transparent
+        -webkit-text-stroke: .3rem transparent;
 }
 
 header p{
