@@ -1,52 +1,11 @@
-html , body  {
-    height: 100%;
+body{
+   background-image: linear-gradient(to right, #1a2a6c,#b21f1f,#fdbb2d);
 }
- 
-body{ 
-     font-family: sans-serif;
-     margin: 0px;
-     background: linear-gradient(50deg,
-        #36d1dc, #36d1dc, #6eeb83, #6eeb83, #e4ff1a, #f7b733, #fc4a1a, #fc4a1a);
-        background-size: 250% 250%;
-        animation: gradient 15s ease infinite;
-}
-
-@keyframes gradient {
-         0% {
-            background-position: 0 50%;
-         }
-         50% {
-            background-position: 100% 50%;
-         }
-         100% {
-            background-position: 0 50%;
-         }
-}
-
 
 header h1{
-        color: black;
-        text-align: center;
-        font-size: clamp(3rem, 1vw + 7.Srem, 12rem);
-        background: linear-gradient(90deg, DeepPink, Purple, Indigo,
-        Red, DarkOrange, Gold, Lime, SpringGreen, SteelBlue,
-        Navy);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-stroke: .3rem transparent
-}
-
-header p{
-    text-align: center;
-    color: navy;
-}
-
-*{
-    box-sizing: border-box;
-}
-
-main h1{
-        text-align: center;
+   font-family: 'Comic Sans MS';
+text-align: center;
+       font-size: 30px;
         background-clip: text;
         -webkit-background-clip: text;
         color: transparent;
@@ -75,21 +34,175 @@ main h1{
          }
     }
 
-footer{
-     color: #427aa1;
-     text-align: center;
+    header img{
+          height: 300px;
+    }
+
+    header p{
+      text-align: center;
+    }
+
+    main div {
+      text-align: center;
+    }
+
+    .mumii_natrona h1{
+      text-align: center;
+       font-size: 30px;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        background-image: linear-gradient(to right, #03001e,#7303c0,#ec38bc,Red) ;
+        background-size: 400% 400%;
+        animation: move 5s ease infinite;
+    }
+
+    @keyframes move{
+         0% {
+            background-position: 0 0;
+         }
+         25% {
+            background-position: 100% 0;
+         }
+         50% {
+            background-position: 100% 100%;
+         }
+         75% {
+            background-position: 0 100%;
+         }
+         100% {
+            background-position: 0 0;
+         }
+    }
+
+    .colodec_uzhasa h1{
+      text-align: center;
+       font-size: 30px;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        background-image: linear-gradient(to right, aqua, #74ebd5,#acb6e5, #5fc3e4, #e55d87, red);
+        background-size: 400% 400%;
+        animation: move2 5s ease infinite;
+    }
+
+    @keyframes move2{
+      0% {
+         background-position: 0 0;
+      }
+      25% {
+         background-position: 100% 0;
+      }
+      50% {
+         background-position: 100% 100%;
+      }
+      75% {
+         background-position: 0 100%;
+      }
+      100% {
+         background-position: 0 0;
+      }
+ }
+
+ .labirint h1{
+   text-align: center;
+    font-size: 30px;
+     background-clip: text;
+     -webkit-background-clip: text;
+     color: transparent;
+     background-image: linear-gradient(to right, aqua, lightBlue, BlueViolet, blue, navy, indigo);
+     background-size: 400% 400%;
+     animation: move2 10s ease infinite;
+ }
+
+ @keyframes move2{
+   0% {
+      background-position: 0 0;
+   }
+   25% {
+      background-position: 100% 0;
+   }
+   50% {
+      background-position: 100% 100%;
+   }
+   75% {
+      background-position: 0 100%;
+   }
+   100% {
+      background-position: 0 0;
+   }
 }
 
-ul{
-    font-size: 20px;
-    color: #f7b733:
+.goluboe h1{
+   text-align: center;
+    font-size: 30px;
+     background-clip: text;
+     -webkit-background-clip: text;
+     color: transparent;
+     background-image: linear-gradient(to right, navy, blue, BlueViolet, indigo, black);
+     background-size: 400% 400%;
+     animation: move2 10s ease infinite;
+ }
+
+ @keyframes move2{
+   0% {
+      background-position: 0 0;
+   }
+   25% {
+      background-position: 100% 0;
+   }
+   50% {
+      background-position: 100% 100%;
+   }
+   75% {
+      background-position: 0 100%;
+   }
+   100% {
+      background-position: 0 0;
+   }
+}
+
+ .colodec_uzhasa img{
+   height: 900px;
+   }
     
-}
+   .vodoyomi {
+       font-size: 20px;
+       color: aqua;
+ } 
 
-ol{
-    font-size: 20px;
-    color: blue;
-}
+ .yelowpark img{
+       height: 800px;
+    }
 
-
-
+    footer h1{
+      font-family: 'Comic Sans MS';
+      text-align: center;
+             font-size: 30px;
+              background-clip: text;
+              -webkit-background-clip: text;
+              color: transparent;
+              background-image: linear-gradient(45deg, DeepPink,
+              BlueViolet, Indigo, Red, DarkOrange, Yellow,
+              Lime, MediumAquaMarine, Aqua, Blue, Olive);
+              background-size: 400% 400%;
+              animation: move 10s ease infinite;
+          }
+      
+          @keyframes move{
+               0% {
+                  background-position: 0 0;
+               }
+               25% {
+                  background-position: 100% 0;
+               }
+               50% {
+                  background-position: 100% 100%;
+               }
+               75% {
+                  background-position: 0 100%;
+               }
+               100% {
+                  background-position: 0 0;
+               }
+          }
